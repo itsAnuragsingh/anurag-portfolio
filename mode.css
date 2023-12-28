@@ -217,6 +217,7 @@ body.dark-mode .project-layer{
   .home-image img{
       width: 70vw;
       margin-top: 9rem;
+      margin-left: 11rem;
   }
   .about{
     flex-direction: column-reverse;

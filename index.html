@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mode.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-------------------------------------------------------HEADER SECTION---------------------------------------------------------->
+    <header class="header">
+        <a href="#" class="logo">Anurag <span>.</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active"><i class='bx bxs-home'></i> Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contact me</a>
+            <div class="toggle-button" id="theme-toggle" onclick="toggleTheme()">
+                <div class="icon sun"><i class='bx bxs-sun bx-tada'></i></div>
+                <div class="icon moon">🌙</div>
+            </div>
+
+        </nav>
+    </header>
+    <!------------------------------------------------------- END HEADER SECTION---------------------------------------------------------->
+
+    <!-------------------------------------------------------HOME SECTION---------------------------------------------------------->
+
+
+    <section class="home" id="home">
+
+        <div class="homeContent">
+            <h3>Hey! it's me</h3>
+            <h1>Anurag Singh</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Hello! I'm Anurag Singh, a student in Computer Science and Engineering with <br>a keen interest in web
+            development particularly frontend and animations.<br> I'm a full-stack enthusiast, always eager to learn new technologies.</p>
+            <div class="social-media">
+                <a href="https://github.com/itsAnuragsingh" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/anurag-singh-047492256/" target="_blank"><i
+                        class='bx bxl-linkedin-square'></i></a>
+                <a href="https://twitter.com/itsanurag707" target="_blank"><i class="ri-twitter-x-fill"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-image">
+            <img src="newprofile.png" alt="">
+        </div>
+    </section>
+
+    <!-------------------------------------------------------ABOUT SECTION---------------------------------------------------------->
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="newprofile.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hello! My name is Anurag Singh. I'm currently studying for my B.Tech in Computer Science and Engineering
+                at NSHM Knowledge Campus, Durgapur.
+            </p>
+
+
+            <button class="show-modal btn" id="pop">Read More</button>
+            <span class="overlay"></span>
+
+            <div class="modal-box">
+
+                <p>
+                    I'm really interested in web development and have worked hard to improve my skills in the frontend
+                    part of it, especially in creating engaging animations. I love learning and growing, which has led
+                    me to become enthusiastic about full-stack development.
+
+                    I believe that programming has the power to solve problems and make life easier. I'm always excited
+                    to learn about new technologies and use them in practical ways.
+
+                    You're welcome to look through my portfolio to see the projects I've worked on and the skills I
+                    have. If you have any questions or would like to discuss opportunities to work together, please
+                    don't hesitate to get in touch with me.
+                </p>
+                
+                
+
+                <div class="pop-buttons">
+                    <button class="close-btn btn" id="pop">Close</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-------------------------------------------------------Skills SECTION---------------------------------------------------------->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skill-row">
+            <div class="skill-column">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skill-box">
+                    <div class="skill-content">
+                        <div class="progress">
+                            <i class='bx bxl-html5'></i>
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="skill-progress" data-skill="90%"></div>
+                        </div>
+                        <div class="progress">
+                            <i class='bx bxl-css3'></i>
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="skill-progress" data-skill="80%"></div>
+                        </div>
+                        <div class="progress">
+                            <i class='bx bxl-javascript'></i>
+                            <h3>JavaScript <span>65%</span></h3>
+                            <div class="skill-progress" data-skill="65%"></div>
+                        </div>
+                        <div class="progress">
+                            <i class='bx bxl-python'></i>
+                            <h3>python <span>60%</span></h3>
+                            <div class="skill-progress" data-skill="60%"></div>
+                        </div>
+                        <div class="progress">
+                            <i class='bx bxl-tailwind-css'></i>
+                            <h3>Tailwind <span>75%</span></h3>
+                            <div class="skill-progress" data-skill="75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-column">
+                <h3 class="title">Other Skills</h3>
+                <div class="skill-box">
+                    <div class="skill-content">
+                        <div class="progress">
+                            <i class="ri-window-fill"></i>
+                            <h3>Web Design <span>80%</span></h3>
+                            <div class="skill-progress" data-skill="80%"></div>
+                        </div>
+                        <div class="progress">
+                            <i class="ri-pages-fill"></i>
+                            <h3>Web Devlopment <span>60%</span></h3>
+                            <div class="skill-progress" data-skill="60%"></div>
+                        </div>
+                        <div class="progress">
+                            <i class='bx bxl-github'></i>
+                            <h3>Github <span>75%</span></h3>
+                            <div class="skill-progress" data-skill="75%"></div>
+                        </div>
+                        <div class="progress">
+                            <i class="ri-pencil-ruler-2-fill"></i>
+                            <h3>Graphic Design <span>70%</span></h3>
+                            <div class="skill-progress" data-skill="70%"></div>
+                        </div>
+                        <div class="progress">
+                            <i class="ri-tools-fill"></i>
+                            <h3>Tools <span>75%</span></h3>
+                            <div class="skill-progress" data-skill="75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------------------------PROJECT SECTION---------------------------------------------------------->
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="Assets/RPS.png" alt="">
+                <div class="project-layer">
+                    <h4>RPS Game</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolorem.</p>
+                    <!-- <a href="#"><i class='bx bx-link-external'></i></a> -->
+                    <div class="live-demo">
+                        <!-- <button class="live-btn"> Source Code</button>
+                <button class="live-btn">Live Demo  <i class='bx bx-link-external'></i></button> -->
+                        <a class="live-btn" href="https://github.com/itsAnuragsingh/Rock-paper-scissors-Game"
+                            target="_blank"> Source Code</a>
+                        <a class="live-btn" href="https://rpsanurag.netlify.app/" target="_blank">Live Demo <i
+                                class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="project-box">
+                <img src="Assets/clock.png" alt="">
+                <div class="project-layer">
+                    <h4>RPS Game</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolorem.</p>
+                    <!-- <a href="#"><i class='bx bx-link-external'></i></a> -->
+                    <div class="live-demo">
+                        <button class="live-btn"> Source Code</button>
+                        <button class="live-btn">Live Demo <i class='bx bx-link-external'></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="Assets/clock.png" alt="">
+                <div class="project-layer">
+                    <h4>Clock</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolorem.</p>
+                    <!-- <a href="#"><i class='bx bx-link-external'></i></a> -->
+                    <div class="live-demo">
+                        <button class="live-btn"> Source Code</button>
+                        <button class="live-btn">Live Demo <i class='bx bx-link-external'></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="pic1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolorem.</p>
+                    <!-- <a href="#"><i class='bx bx-link-external'></i></a> -->
+                    <div class="live-demo">
+                        <button class="live-btn"> Source Code</button>
+                        <button class="live-btn">Live Demo <i class='bx bx-link-external'></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="pic1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolorem.</p>
+                    <!-- <a href="#"><i class='bx bx-link-external'></i></a> -->
+                    <div class="live-demo">
+                        <button class="live-btn"> Source Code</button>
+                        <button class="live-btn">Live Demo <i class='bx bx-link-external'></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="pic1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolorem.</p>
+                    <!-- <a href="#" ><i class='bx bx-link-external'></i></a> -->
+                    <div class="live-demo">
+                        <button class="live-btn"> Source Code</button>
+                        <button class="live-btn">Live Demo <i class='bx bx-link-external'></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-------------------------------------------------------CONATCT SECTION---------------------------------------------------------->
+    <section class="contacts" id="contacts">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" class="text-input">
+                <input type="email" placeholder="Email Address" class="email-input">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" class="num-input">
+                <input type="text" placeholder="Email Subject" class="sub-input">
+            </div>
+            <textarea name="" id="" cols="30" rows="10">Your Message</textarea>
+            <!-- <input type="submit" value="Send Message" class="btn"> -->
+            <button class="btn" type="submit">Send Message</button>
+
+        </form>
+    </section>
+
+
+    <!-------------------------------------------------------SCRIPTTAGS---------------------------------------------------------->
+
+
+    <div class="custom-cursor"></div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

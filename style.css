@@ -586,4 +586,28 @@ span {
   color: crimson;
 }
 
+#cert{
+  width: 100%;
+  height: 100vh;
+}
+
+#cert h2{
+  margin-bottom: 25px;
+}
+
+#cert-div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+#cert-div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
 
